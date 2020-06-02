@@ -14,6 +14,7 @@ Requires:
 - droid-config-tissot-flashing
 - droid-config-tissot-bluez5
 - droid-hal-version-tissot
+- droid-hal-tissot-detritus
 
 # Hybris packages
 - libhybris-libEGL
