@@ -7,9 +7,16 @@
 %define vendor_pretty Xiaomi
 %define device_pretty Mi_A1
 
+# We assume most devices will
+%define have_modem 1
+
+# Adjust this for your device
+# %define pixel_ratio 1.6
+
 # Community HW adaptations need this
 %define community_adaptation 1
 
+Provides: ofono-configs
 # Sailfish OS is considered to-scale, if in app grid you get 4-in-a-row icons
 # and 2x2 or 3x3 covers when up-to-4 or 5-or-more apps are open respectively.
 # For 4-5.5" device screen sizes of 16:9 ratio, use this formula (hold portrait):

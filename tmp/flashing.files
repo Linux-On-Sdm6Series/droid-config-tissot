@@ -1,1 +1,2 @@
 /usr/sbin/flash-partition
+/var/lib/platform-updates/flash-bootimg.sh
