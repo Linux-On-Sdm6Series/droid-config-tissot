@@ -32,7 +32,7 @@ Requires:
 - qt5-plugin-generic-evdev
 
 - pulseaudio-modules-droid
-- pulseaudio-modules-droid-glue
+- pulseaudio-modules-droid-hidl
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
@@ -49,6 +49,12 @@ Requires:
 - nemo-gstreamer1.0-interfaces
 # For devices with droidmedia and gst-droid built, see HADK pdf for more information
 - gstreamer1.0-droid
+- gstreamer1.0-droid-tools
+# - droidmedia
+- audiosystem-passthrough-dummy-af
+
+# either LD_PRELOAD libcameraservice is required or this (for camera):
+# - audioflingerglu
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
@@ -77,4 +83,3 @@ Requires:
 #- jolla-settings-system-nfc
 
 Summary: Jolla HW Adaptation tissot
-
